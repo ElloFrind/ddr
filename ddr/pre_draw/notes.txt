@@ -1,0 +1,7 @@
+init() -> drawUpColumn(canvasId)
+       -> drawDownColumn(canvasId)
+       -> drawLeftColumn(canvasId)
+       -> drawRightColumn(canvasId)
+
+Each draw___Column() will run continuously, with its own data file showing all the arrows it must print and at what time they must make it to the top. The specific file required will be linked in by the specific html page that has been loaded.
+The first thing they must always do is draw the top arrow, then the others.
